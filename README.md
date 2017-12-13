@@ -9,3 +9,10 @@ Use it as follows:
         let code = CodeType.barcode
         imgView.image = code.image(string: "hello how are you??", imgViewFrame: imgView.frame)
 ```
+
+OR
+
+```
+        let code = CodeType.qrcode
+        imgView.image = code.image(string: "hello how are you??", imgViewFrame: imgView.frame)
+```
